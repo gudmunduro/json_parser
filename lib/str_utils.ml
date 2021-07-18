@@ -16,4 +16,4 @@ let get_first_char string = String.prefix string 1
 
 let get_last_char string = String.suffix string 1
 
-let is_float_number_char string = matches string "[0-9.]"
+let is_float_number_char string = matches string "[0-9.-]"

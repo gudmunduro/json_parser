@@ -129,6 +129,6 @@ let rec parse_json_value text =
   | (" " | "\n" | "\r") -> parse_json_value (String.drop_prefix text 1)
   | x -> raise (PraseException ("Invalid fist character in json value (" ^ x ^ ")"))
 
-let parse_json text = 
+let decode_json text = 
   let (json_value, _) = parse_json_value text in
   json_value
