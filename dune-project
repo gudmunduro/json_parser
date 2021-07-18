@@ -9,5 +9,5 @@
 
 (package
  (name json_parser_lib)
- (synopsis "Binary to test json parser")
- (description "Binary to test json parser"))
+ (synopsis "Simple json parser")
+ (description "Simple json parser"))
