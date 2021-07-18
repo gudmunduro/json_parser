@@ -1,8 +1,6 @@
 open Core
 open Json_types
 
-(* Exceptions *)
-
 exception PraseException of string
 
 (* Types *)
