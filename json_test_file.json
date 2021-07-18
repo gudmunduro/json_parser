@@ -1,0 +1,22 @@
+{
+    "string": "string",
+    "bool": true,
+    "array": [
+       "a",
+       false,
+       null,
+       10,
+       15.0,
+       -5,
+       [
+           [[false]]
+       ],
+       {
+           "num": -90.55
+       }
+          
+    ],
+    "object": {
+        "a": "b"
+    }
+}

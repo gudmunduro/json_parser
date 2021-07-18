@@ -1,0 +1,3 @@
+(executable
+ (name json_parser)
+ (libraries json_parser_lib))
