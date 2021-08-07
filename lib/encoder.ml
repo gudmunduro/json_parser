@@ -3,8 +3,7 @@ open Json_types
 
 let encode_json ?formatted: (formatted=false) json =
   (* Shared *)
-  let bool_to_string bool = (
-    match bool with
+  let bool_to_string = (function
     | true -> "true"
     | false -> "false"
   ) in
